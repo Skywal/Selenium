@@ -19,12 +19,12 @@ public class SimpleTest {
 
         driver.manage().window().maximize();
         driver.navigate().to("https://rozetka.com.ua/ua/");
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 
         WebElement searchField = driver.findElement(By.cssSelector(".rz-header-search-input-text"));
         searchField.clear();
         searchField.sendKeys("iPhone 6");
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
 
         WebElement searchButton = driver.findElement(By.cssSelector(".js-rz-search-button"));
         searchButton.click();
