@@ -11,7 +11,7 @@ public class Strings {
     //region File source
     public final static String PATH_WORDS_TO_WORK_WITH = "source/sourceWords.txt";
     //endregion
-    
+
     //region Elements class names
     //endregion
 }
