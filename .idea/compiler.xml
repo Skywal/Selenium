@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MavenWithTestNGAndSeleniumWebDriver" />
+        <module name="webdriverbasics" />
       </profile>
     </annotationProcessing>
   </component>
