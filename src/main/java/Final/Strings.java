@@ -5,7 +5,8 @@ public class Strings {
     /**
      * Body of URL for Longman dictionary english-english part
      */
-    public final static String URL_BASE_DICTIONARY = "https://www.ldoceonline.com/dictionary/";
+    public final static String URL_BASE_DICTIONARY = "https://dictionary.cambridge.org/dictionary/english/";
+//            "https://www.ldoceonline.com/dictionary/";
     //endregion
 
     //region File source

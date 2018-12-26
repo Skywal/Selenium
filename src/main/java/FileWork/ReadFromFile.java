@@ -47,6 +47,7 @@ public class ReadFromFile {
 
     /**
      * Read file and return a string like in file
+     * File should be in UTF-8 encoding and Windows endline style
      * @return
      */
     public String readLineByLineCommonPattern(){
