@@ -14,6 +14,15 @@ public class WebContentParser {
     public ArrayList<DictionaryItem> getWordsList() {
         return wordsList;
     }
+
+    /**
+     * return word with given index
+     * @param index index of the word in array list
+     * @return
+     */
+    public DictionaryItem getWord(int index){
+        return wordsList.get(index);
+    }
     //endregion
 
     //region construct
@@ -27,6 +36,14 @@ public class WebContentParser {
     //endregion
 
     //region public
+
+    /**
+     * create new DictionaryItem and add it into wordsList
+     * @param word
+     * @param transcriptionEn
+     * @param transcriptionUs
+     * @param example
+     */
     public void addNewWord(String word, String transcriptionEn, String transcriptionUs, String example){
         wordsList.add(new DictionaryItem(
                 word,
@@ -34,6 +51,18 @@ public class WebContentParser {
                 transcriptionUs,
                 example
         ));
+    }
+
+    /**
+     * add existing dictionaryItem exemplar
+     * @param dictionaryItem
+     */
+    public void addNewWord(DictionaryItem dictionaryItem){
+        wordsList.add(dictionaryItem);
+    }
+
+    public void parseWords(){
+
     }
     //endregion
 }
