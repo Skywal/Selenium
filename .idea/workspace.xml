@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5605dc7-f85e-45e5-9837-db4b2e4c0af2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Content/WebContentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Content/LocalDictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FileWork/ReadFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileWork/ReadFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BotForDictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BotForDictionary.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BotForDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Content/LocalDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
@@ -80,6 +78,18 @@
                 <element signature="e#681#682#0" expanded="true" />
                 <element signature="e#1272#1273#0" expanded="true" />
                 <element signature="e#1317#1318#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OnlineWork/Parser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -126,13 +136,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/SimpleTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/BotForDictionary.java" />
         <option value="$PROJECT_DIR$/src/main/java/Final/Strings.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictionaryItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/Content/DictionaryItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/Content/WebContentParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/FileWork/ReadFromFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/Content/LocalDictionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BotForDictionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OnlineWork/Parser.java" />
       </list>
     </option>
   </component>
@@ -397,7 +408,7 @@
     <frame x="0" y="-2" width="1366" height="770" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18361153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18361153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Designer" order="3" />
@@ -504,16 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BotForDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="76" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FileWork/ReadFromFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-252">
@@ -542,6 +543,26 @@
             <element signature="e#681#682#0" expanded="true" />
             <element signature="e#1272#1273#0" expanded="true" />
             <element signature="e#1317#1318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BotForDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OnlineWork/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
