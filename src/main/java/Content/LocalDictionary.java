@@ -2,7 +2,7 @@ package Content;
 
 import java.util.ArrayList;
 
-public class WebContentParser {
+public class LocalDictionary {
     //region fields
     /**
      * full list of words from the web-dictionary
@@ -26,7 +26,7 @@ public class WebContentParser {
     //endregion
 
     //region construct
-    public WebContentParser(){
+    public LocalDictionary(){
         initialize();
     }
 

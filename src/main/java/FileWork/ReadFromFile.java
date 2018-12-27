@@ -1,5 +1,7 @@
 package FileWork;
 
+import Content.LocalDictionary;
+
 import java.io.*;
 
 public class ReadFromFile {
@@ -17,7 +19,8 @@ public class ReadFromFile {
      */
     BufferedReader bufferedReader; //buffer
 
-    StringBuilder contentBuilder;
+//    StringBuilder contentBuilder;
+//    LocalDictionary parser;
     /**
      * path to file
      */
@@ -35,7 +38,8 @@ public class ReadFromFile {
     }
 
     private void initialize(){
-        contentBuilder = new StringBuilder();
+//        contentBuilder = new StringBuilder();
+//        parser = new LocalDictionary();
     }
 
     private void defaultValue(String filePath){
@@ -50,7 +54,7 @@ public class ReadFromFile {
      * File should be in UTF-8 encoding and Windows endline style
      * @return
      */
-    public String readLineByLineCommonPattern(){
+    public void readLineByLineCommonPattern(LocalDictionary parser){
         try{
             if(isStringExists(filePath)) {
                 initFileInpStream(filePath);
@@ -62,7 +66,8 @@ public class ReadFromFile {
 //            bufferedReader = new BufferedReader(inputStreamReader);
 
             while ((line = bufferedReader.readLine()) != null)
-                contentBuilder.append(line).append("\n");
+                parser.addNewWord(line, null, null, null);
+//                contentBuilder.append(line).append("\n");
 
         }
         catch (FileNotFoundException ex){
@@ -77,7 +82,7 @@ public class ReadFromFile {
             closeBufferedReader();
         }
 
-        return contentBuilder.toString();
+//        return contentBuilder.toString();
     }
     //endregion
 
